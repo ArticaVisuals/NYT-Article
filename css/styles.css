@@ -10,6 +10,11 @@
   height: 2000px;
   margin: auto;
   line-height: 1.4;
+  flex-direction: column
+}
+
+.btnparent {
+  flex-direction: row
 }
 
 .btn {
@@ -29,6 +34,7 @@
     font-family: 'Source Sans 3', sans-serif;
     font-weight: 400;
     border-radius: 25px;
+    align-content: center;
 }
 
 
