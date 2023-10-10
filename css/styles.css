@@ -4,13 +4,18 @@
 
 
 .main-container {
-  position: relative;
+  display: flex;
+  /* position: relative;*/
   left: 100px;
-  width: 500px;
-  height: 2000px;
-  margin: auto;
+  height: 100%;
+  margin: 0;
   line-height: 1.4;
-  flex-direction: column
+  flex-direction: column;
+  max-width: 50rem;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  padding: 0 1rem;
+  hyphens: auto;
 }
 
 .solid {
@@ -25,7 +30,7 @@
   flex-wrap: wrap;
   align-content: center;
   gap: 0.5rem;
-  padding: 1rem 1rem 1rem 0rem;
+  padding: 0rem 1rem 1rem 0rem;
 }
 
 .btn {
@@ -45,6 +50,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #d3d3d3; /* Green */
+  color: rgb(0, 0, 0)
+  tra
 }
 
 .headerdiv {
@@ -59,10 +71,17 @@ font-weight: 700;
 font-size: 2rem
 }
 
+.paragraph {
+word-break: break-all;
+width: 80vw;
+overflow-x: hidden;
+min-height: 0;
+}
+
 .bodycopy {
 font-family: 'Source Serif 4', serif;
 font-weight: 400;
-font-size: 1.3rem
+font-size: 19px
 }
 
 .authors {
@@ -110,4 +129,11 @@ font-size: 0.7rem
   color: gray;
   font-family: 'Source Sans 3', sans-serif;
   font-weight: 400
+}
+
+a { 
+  color:rgb(0, 0, 0);
+  text-decoration:underline;
+  font-family: 'Source Serif 4', serif;
+
 }
