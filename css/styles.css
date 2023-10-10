@@ -5,7 +5,7 @@
 
 .main-container {
   display: flex;
-  /* position: relative;*/
+  position: relative;
   left: 100px;
   width: 50vw;
   height: 100%;
