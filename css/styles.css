@@ -11,17 +11,12 @@
     height: 100%;
     margin: 0;
     line-height: 1.4;
-    flex-direction: column;
     max-width: 50rem;
-    align-items: flex-start;
     flex-flow: row wrap;
     padding: 0 1rem;
     hyphens: auto;
   }
 
-.solid {
-  padding: 0em;
-}
 
 .btnparent {
   display: flex;
