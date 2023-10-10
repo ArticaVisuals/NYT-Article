@@ -9,10 +9,11 @@
     height: 100%;
     margin: auto;
     line-height: 1.4;
-    max-width: 500px;
     flex-flow: row wrap;
     padding: 0 1rem;
     hyphens: auto;
+    max-width: 100%;
+    flex-wrap: wrap;
   }
 
 
