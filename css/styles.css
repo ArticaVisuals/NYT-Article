@@ -13,7 +13,7 @@
   align-items: flex-start;
   margin-left: auto;
   margin-right: auto;
-  width: 80vw
+  padding: 0 1rem;
 }
 
 .solid {
@@ -71,6 +71,7 @@ font-size: 2rem
 
 .paragraph {
 word-break: break-all;
+width: 80vw
 }
 
 .bodycopy {
