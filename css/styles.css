@@ -6,7 +6,6 @@
   .main-container {
     display: flex;
     position: relative;
-    left: 100px;
     height: 100%;
     margin: auto;
     line-height: 1.4;
