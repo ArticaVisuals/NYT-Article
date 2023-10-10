@@ -7,15 +7,14 @@
   display: flex;
   /* position: relative;*/
   left: 100px;
+  width: 80vw;
   height: 100%;
   margin: 0;
   line-height: 1.4;
   flex-direction: column;
-  max-width: 50rem;
   align-items: flex-start;
   flex-flow: row wrap;
   padding: 0 1rem;
-  hyphens: auto;
 }
 
 .solid {
@@ -74,8 +73,8 @@ font-size: 2rem
 .paragraph {
 word-break: break-all;
 width: 80vw;
+hyphens: auto;
 overflow-x: hidden;
-min-height: 0;
 }
 
 .bodycopy {
