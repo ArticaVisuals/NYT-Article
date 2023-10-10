@@ -71,9 +71,6 @@ font-size: 2rem
 
 .paragraph {
 word-break: break-all;
-width: 80vw;
-hyphens: auto;
-overflow-x: hidden;
 }
 
 .bodycopy {
