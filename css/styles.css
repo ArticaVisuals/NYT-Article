@@ -7,13 +7,12 @@
   display: flex;
   /* position: relative;*/
   left: 100px;
-  width: 80vw;
+  width: 50vw;
   height: 100%;
   margin: auto;
   line-height: 1.4;
   flex-direction: column;
   align-items: flex-start;
-  flex-flow: row wrap;
   padding: 0;
 }
 
