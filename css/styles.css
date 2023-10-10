@@ -11,7 +11,7 @@
     height: 100%;
     margin: 0;
     line-height: 1.4;
-    max-width: 50rem;
+    max-width: 500px;
     flex-flow: row wrap;
     padding: 0 1rem;
     hyphens: auto;
