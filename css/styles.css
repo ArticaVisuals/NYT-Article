@@ -17,6 +17,7 @@
     flex-flow: row wrap;
     padding: 0 1rem;
     hyphens: auto;
+    word-break: break-all;
   }
 
 .solid {
