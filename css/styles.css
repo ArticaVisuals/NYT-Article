@@ -10,7 +10,8 @@
     margin: auto;
     line-height: 1.4;
     flex-flow: row wrap;
-    padding: 0 1rem;
+    padding: 6px 24px 48px 24px;
+    height: 100vh;
     hyphens: auto;
     max-width: 100%;
     flex-wrap: wrap;
