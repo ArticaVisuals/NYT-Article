@@ -9,7 +9,7 @@
     width: 500px;
     left: 100px;
     height: 100%;
-    margin: 0;
+    margin: auto;
     line-height: 1.4;
     max-width: 500px;
     flex-flow: row wrap;
